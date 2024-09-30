@@ -1,0 +1,69 @@
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 4.63px;
+  position: relative;
+  padding: 3.153px 11.754px;
+  cursor: pointer;
+  border-radius: 50px; /* Bordas bem arredondadas */
+  transition: background 0.3s, transform 0.3s; /* Transição suave */
+}
+
+.frame-4 {
+  width: 123.507px;
+  background: linear-gradient(90deg, #ffd3e4, #ffb3d0);
+  border: none;
+  z-index: 16;
+  border-radius: 50px; /* Bordas arredondadas */
+}
+
+.frame-5 {
+  width: 89.507px;
+  background: transparent;
+  border: 0.36px solid #ffc8dd;
+  z-index: 18;
+  border-radius: 50px; /* Bordas arredondadas */
+}
+
+/* Efeitos ao passar o mouse */
+.frame-4:hover {
+  transform: scale(1.05); /* Aumenta levemente o tamanho do botão */
+  opacity: 0.9; /* Reduz a opacidade */
+  background: #ffd3e4; /* Adiciona um fundo sutil ao passar o mouse */
+  border-color: #ffb3d0; /* Altera a cor da borda */
+
+}
+
+.frame-5:hover {
+  background: rgba(255, 200, 221, 0.2); /* Adiciona um fundo sutil ao passar o mouse */
+  border-color: #ffb3d0; /* Altera a cor da borda */
+  transform: scale(1.05); /* Aumenta levemente o tamanho do botão */
+  opacity: 0.9; /* Reduz a opacidade */
+}
+
+.contrate-me,
+.curriculo {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 23px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.contrate-me {
+  color: #313131;
+  z-index: 17;
+}
+
+.curriculo {
+  color: #ffc8dd;
+  z-index: 19;
+}
