@@ -34,8 +34,13 @@ button {
 .main-container {
   position: relative;
   width: 100%;
+<<<<<<< HEAD
   margin: 0  ;
   background: #000000;
+=======
+  margin: 0 auto;
+  background: #335c81;
+>>>>>>> 51e6153fbb34570d1ec5ca1344e7ea3038a6c4f9
   overflow: hidden;
 }
 .pagina-inicial {
